@@ -54,6 +54,24 @@ The model uses the following features to predict EV range:
 - Programming language: Python
 - Libraries: `pandas`, `numpy`, `scikit-learn`, `[Optional: matplotlib, seaborn]`
 
+## Usage
+1. Clone the repository:
+```
+git clone https://github.com/yourusername/ev-range-predictor.git
+```
+
+2. Install required packages:
+```
+pip install -r requirements.txt
+```
+
+3. Run the prediction script:
+```
+python predict_range.py
+```
+
+4. Input vehicle parameters and get the predicted range.
+
 ## Evaluation Metrics
 The model is evaluated using standard regression metrics:
 

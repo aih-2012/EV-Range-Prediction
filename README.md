@@ -32,19 +32,34 @@ It can help users, manufacturers, and enthusiasts **estimate the driving distanc
 
 ## Features
 The model uses the following features to predict EV range:
+- Top Speed (Kmh)
 - Battery Capacity (kWh)
+- Number of cells
+- Torque (nM)
+- Acceleration (0-100, s)
+- Fast charging Power (kW/dc)
+- Towing capacity (kg)
 - Motor Power (kW)
+- Cargo Volume (L)
+- Drivetrain (FWD/RWD/AWD)
+- Segment
+- Body type
 - Vehicle Weight (kg)
-- Aerodynamics / Drag Coefficient `[Optional]`
-- Efficiency (Wh/km) `[Optional]`
-- `[Add any additional features used]`
+- Efficiency (Wh/km)
 
 ---
 
 ## Model
-- Model type: `[Linear Regression / Random Forest / XGBoost / Neural Network]`
+- Model type: `Random Forest`
 - Programming language: Python
 - Libraries: `pandas`, `numpy`, `scikit-learn`, `[Optional: matplotlib, seaborn]`
+
+## Evaluation Metrics
+The model is evaluated using standard regression metrics:
+
+- Mean Absolute Error (MAE): [Insert value]
+- Root Mean Squared Error (RMSE): [Insert value]
+- R² Score: [Insert value]
 
 ### Example Code Snippet
 ```python
@@ -54,3 +69,10 @@ model = RandomForestRegressor(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 ```
+# Future Work
+- Include more features such as driving conditions, temperature, and load.
+- Improve model accuracy using advanced algorithms or neural networks.
+- Deploy as a web app or mobile app for interactive predictions.
+
+# License
+This project is licensed under the [Insert License, e.g., MIT] License.

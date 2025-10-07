@@ -77,7 +77,7 @@ python predict_range.py
 ## Evaluation Metrics
 The model is evaluated using standard regression metrics:
 
-- Mean Absolute Error (MAE): [Insert value]
+- Mean Absolute Error (MAE): [14.125]
 - Root Mean Squared Error (RMSE): [Insert value]
 - R² Score: [Insert value]
 

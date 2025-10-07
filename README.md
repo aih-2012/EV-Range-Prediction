@@ -24,9 +24,11 @@ It can help users, manufacturers, and enthusiasts **estimate the driving distanc
 ---
 
 ## Dataset
-- Source: `[Insert dataset source, e.g., Kaggle / CSV file / government dataset]`
-- Number of entries: `[Insert number]`
-- Columns include `[Battery Capacity, Motor Power, Vehicle Weight, Efficiency, etc.]`
+- Title: `Electric Vehicle Specs Dataset (2025)`
+- Author: `Urvish Ahir`
+- Link: `https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025`
+- Number of entries: `1000`
+- Columns include `[Battery Capacity, Motor Power, Drivetrain, Efficiency, etc.]`
 
 ---
 

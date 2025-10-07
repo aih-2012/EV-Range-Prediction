@@ -95,4 +95,4 @@ y_pred = model.predict(X_test)
 - Deploy as a web app or mobile app for interactive predictions.
 
 # License
-This project is licensed under the [Insert License, e.g., MIT] License.
+This project is licensed under the Creative Commons Attribution 4.0 International License.

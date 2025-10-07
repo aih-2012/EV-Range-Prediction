@@ -1,4 +1,4 @@
-# EV Range Predictor 🚗🔋
+# EV Range Prediction Model 🚗🔋
 
 A machine learning project that predicts the driving range of electric vehicles (EVs) based on various input features such as battery capacity, motor power, vehicle weight, and efficiency parameters.
 

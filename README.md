@@ -11,7 +11,6 @@ A machine learning project that predicts the driving range of electric vehicles 
 - [Model](#model)
 - [Usage](#usage)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Results](#results)
 - [Future Work](#future-work)
 - [License](#license)
 
@@ -77,10 +76,11 @@ python predict_range.py
 ## Evaluation Metrics
 The model is evaluated using standard regression metrics:
 
-- Mean Absolute Error (MAE): [14.125]
-- Root Mean Squared Error (RMSE): [Insert value]
-- R² Score: [Insert value]
-
+- Mean Absolute Error (MAE): `13.458`
+- Mean Squared Error (MSE): `362.729`
+- Root Mean Squared Error (RMSE): `19.045`
+- R² Score: `0.965`
+  
 ### Example Code Snippet
 ```python
 from sklearn.ensemble import RandomForestRegressor
@@ -95,4 +95,4 @@ y_pred = model.predict(X_test)
 - Deploy as a web app or mobile app for interactive predictions.
 
 # License
-This project is licensed under the Creative Commons Attribution 4.0 International License.
+This project is licensed under the GNU General Public v3.0 License.
